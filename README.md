@@ -64,9 +64,7 @@ If you want to run this project on your own machine, follow these steps:
 
     cd frontend
     npm install
-    npm run dev
-
-    Open your browser and navigate to the local address provided by Vite (usually http://localhost:5173).
+    npm run build && npm run serve
 
 📜 License
 
