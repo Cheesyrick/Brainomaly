@@ -10,7 +10,7 @@ Brainomaly provides a simple and intuitive interface for users to get an instant
 This project aims to make medical imaging analysis more accessible and serves as a practical demonstration of the power of AI in healthcare.
 ✨ Key Features
 
-    Simple Image Upload: Easily upload brain MRI images in common formats (JPG, PNG, etc.).
+    Simple Image Upload: Easily upload brain MRI images in common formats (JPG).
 
     Instant AI Prediction: Get a fast analysis and prediction from the trained AI model.
 
