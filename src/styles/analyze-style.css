@@ -1,0 +1,114 @@
+.analyze-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 120px);
+  padding: 2rem;
+}
+.analyze-card {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+.analyze-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 2rem;
+}
+.upload-area {
+  border: 2px dashed #ccc;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  transition: border-color 0.3s, background-color 0.3s;
+  position: relative;
+}
+.upload-area.dragging {
+  border-color: #0d6efd;
+  background-color: #f0f8ff;
+}
+.upload-icon {
+  font-size: 3rem;
+  color: #0d6efd;
+  margin-bottom: 1rem;
+}
+.upload-prompt p {
+  margin: 0.5rem 0;
+  color: #666;
+}
+.upload-prompt .separator {
+  font-weight: bold;
+  color: #aaa;
+}
+.browse-label {
+  color: #0d6efd;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.preview-container {
+  position: relative;
+}
+#image-preview {
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 0.5rem;
+}
+.remove-image-btn {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+.analyze-button {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+.analyze-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.predict-button {
+  background-color: #0d6efd;
+}
+.sample-button {
+  background-color: #17a2b8;
+  display: block;
+  text-decoration: none;
+}
+.or-divider {
+  margin: 1rem 0;
+  color: #aaa;
+  font-weight: bold;
+}
+.message-container {
+  min-height: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.message-container.error {
+  color: #dc3545;
+}
+.message-container.success {
+  color: #198754;
+}

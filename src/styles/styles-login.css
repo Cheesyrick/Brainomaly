@@ -1,0 +1,110 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.login-page-container {
+  min-height: 96.6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: none;
+}
+.login-card {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 24rem;
+}
+
+.login-title-section {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.login-title-section h1 {
+  font-size: 2rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  color: #0369a1;
+  margin-bottom: 0.25rem;
+}
+.login-title-section .prompt {
+  color: #4b5563;
+  font-size: 1rem;
+}
+#login-form {
+  display: flex;
+  flex-direction: column;
+}
+#login-form > div:not(#message-container) {
+  margin-bottom: 1rem;
+}
+#message-container {
+  text-align: center;
+  color: #ef4444;
+  font-size: 0.875rem;
+  min-height: 1.25rem;
+  margin-bottom: 1rem;
+}
+.form-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  font-size: 0.875rem;
+}
+.form-input:focus {
+  outline: none;
+  border-color: #0ea5e9;
+  box-shadow: 0 0 0 2px #0ea5e9, inset 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+#login-button {
+  width: 100%;
+  background-color: #0284c7;
+  color: #ffffff;
+  font-weight: 600;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 0.5rem;
+}
+#login-button:hover {
+  background-color: #0369a1;
+}
+#login-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(14, 165, 233, 0.5);
+}
+#login-button:disabled,
+#login-button.processing {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+.create-account-link-section {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+.create-account-link-section a {
+  font-weight: 500;
+  color: #0284c7;
+  text-decoration: none;
+}
+.create-account-link-section a:hover {
+  text-decoration: underline;
+  color: #0369a1;
+}
