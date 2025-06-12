@@ -1,2 +1,0 @@
-APP_URL=<https://story-app-rafa.netlify.app/#/login>
-MAP_SERVICE_API_KEY=
